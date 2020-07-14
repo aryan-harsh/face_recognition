@@ -19,12 +19,12 @@ requirements = [
 
 test_requirements = [
     'tox',
-    'flake8==2.6.0'
+    'flake8'
 ]
 
 setup(
     name='face_recognition',
-    version='1.2.3',
+    version='1.3.0',
     description="Recognize faces from Python or from the command line",
     long_description=readme + '\n\n' + history,
     author="Adam Geitgey",
@@ -55,10 +55,10 @@ setup(
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
     test_suite='tests',
     tests_require=test_requirements
